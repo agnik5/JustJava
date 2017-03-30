@@ -30,7 +30,8 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:onClick="decrement"
-            android:text="-" />
+            android:text="-"
+            android:background="@drawable/gradient"/>
 
         <TextView
             android:id="@+id/quantity_text_view"
@@ -46,7 +47,8 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:onClick="increment"
-            android:text="+" />
+            android:text="+"
+            android:background="@drawable/gradient"/>
 
     </LinearLayout>
 
@@ -72,6 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:onClick="submitOrder"
-        android:text="Order" />
+        android:text="Order"
+        android:background="@drawable/gradient2"/>
 
 </LinearLayout>
